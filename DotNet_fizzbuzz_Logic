@@ -1,0 +1,25 @@
+// loop for 1 to 100
+for ( var n = 1; n < 101; n ++ ) {
+  
+  //  divisible by 3 or 5
+  var dividebythree = n % 3;
+  var dividebyfive = n % 5;
+  
+  // divisible by both 3 and 5
+  if ( (dividebythree == 0) && (dividebyfive == 0) ) 
+  	console.log( "FizzBuzz");
+  
+  //  divisible by 3
+  else if (dividebythree == 0)
+    console.log( "Fizz");
+  
+  //  divisible by 5
+  else if (dividebyfive == 0)
+    console.log( "Buzz");
+  
+  // print the number
+  else
+    console.log( num );
+} 
+
+
